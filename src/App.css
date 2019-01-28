@@ -1,32 +1,44 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+
+.card {
+
+  height : 350px;
+  width: 250px;
+  background-color : lightgray;
+  float: left;
+  margin: 20px;
+  border-radius: 20px;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#inActiveCard {
+
+  background-color: red;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.kitBtn {
+
+  margin-top: 80px;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addBtn {
+  height: 50px;
+  width: 50px;
+  font-size: 150%;
+}
+
+#activeCard {
+  background-color: green;
 }
